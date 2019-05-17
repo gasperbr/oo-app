@@ -13,7 +13,7 @@
 }
 
 .header-logo {
-    padding-left: 3rem;
+    padding-left: 1rem;
 }
 
 .sections {
@@ -67,3 +67,25 @@
         display: none;
     }
 }
+
+@media (min-width: 480px)  {
+    .logo {
+        float: left;
+        position:relative;
+        width: 30%;
+    }
+    .logo_noText{
+        display: none;
+    }
+}
+
+@media (max-width : 480px){ 
+    .logo_noText{
+        float: left;
+        position:relative;
+        width: 50%;
+    }
+    .logo{
+        display: none;
+    }
+  }
