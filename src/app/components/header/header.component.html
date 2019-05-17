@@ -3,6 +3,17 @@
     Logo
   </div>
   <div class="header-menu">
-    X
+    <div class="sections">
+      <div class="section section-1" [class.hidden]="rotatedX">
+        Section 1
+      </div>
+      <div class="section section-2" [class.hidden]="rotatedX">
+        Section 2
+      </div>
+      <div class="section section-3" [class.hidden]="rotatedX">
+        Section 3
+      </div>
+    </div>
+    <img class="x-icon" (click)="rotatedX = !rotatedX" [class.rotated]="rotatedX" src="../../../assets/icons/cross.svg">
   </div>
 </div>

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ShapesBackgroundComponent } from './shapes-background.component';
+import { IntroSectionComponent } from './intro-section.component';
 
-describe('ShapesBackgroundComponent', () => {
-  let component: ShapesBackgroundComponent;
-  let fixture: ComponentFixture<ShapesBackgroundComponent>;
+describe('IntroSectionComponent', () => {
+  let component: IntroSectionComponent;
+  let fixture: ComponentFixture<IntroSectionComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ShapesBackgroundComponent ]
+      declarations: [ IntroSectionComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ShapesBackgroundComponent);
+    fixture = TestBed.createComponent(IntroSectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

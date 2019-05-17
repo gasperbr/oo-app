@@ -3,15 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { ShapesBackgroundComponent } from './components/shapes-background/shapes-background.component';
-import { ContentComponent } from './components/content/content.component';
+import { IntroSectionComponent } from './components/intro-section/intro-section.component';
+import { FirstSectionComponent } from './components/first-section/first-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ShapesBackgroundComponent,
-    ContentComponent
+    IntroSectionComponent,
+    FirstSectionComponent
   ],
   imports: [
     BrowserModule

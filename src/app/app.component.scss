@@ -1,25 +1,5 @@
 
 .app-header {
     position: absolute;
-    width: 100vw;
-}
-
-.page {
-    position: absolute;
-    top: 4rem;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    overflow-y: scroll;        
-}
-
-.shapes-background {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 400vh;
-}
-.block {
-    width: 60px;
-    height: 60px;
+    width: 100%;
 }
