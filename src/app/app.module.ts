@@ -7,6 +7,8 @@ import { IntroSectionComponent } from './components/intro-section/intro-section.
 import { FirstSectionComponent } from './components/first-section/first-section.component';
 import { SurfBoardsComponent } from './components/surf-boards/surf-boards.component';
 import { VideoSectionComponent } from './components/video-section/video-section.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { SurfSpotComponent } from './components/surf-spot/surf-spot.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { VideoSectionComponent } from './components/video-section/video-section.
     IntroSectionComponent,
     FirstSectionComponent,
     SurfBoardsComponent,
-    VideoSectionComponent
+    VideoSectionComponent,
+    FooterComponent,
+    SurfSpotComponent
   ],
   imports: [
     BrowserModule

@@ -27,7 +27,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/bootstrap.min.js",
+              "src/assets/css/popper.min.js"
             ],
             "scripts": [
             ],

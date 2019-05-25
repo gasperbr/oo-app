@@ -1,9 +1,25 @@
 <div class="header">
   <div class="header-logo">
-      <img class="logo" src="../../../assets/logo_text.png">
-      <img class="logo_noText" src="../../../assets/logo_noText.png">
+      <img class="logo" src="../../../assets/logo/gif_surf.gif">
+      <img class="logo_noText" src="../../../assets/logo/logo_gif_noText.gif">
   </div>
-  <div class="header-menu">
+
+  <!-- Top menu on small screens -->
+  <header class="w3-container w3-top w3-xlarge w3-padding-16">
+    <a href="javascript:void(0)" class="w3-right w3-button w3-text-black" (click)="w3_open()" id="hamburger">☰</a>
+  </header>
+
+  <nav class="w3-sidebar w3-bar-block w3-animate-right w3-top w3-text-black w3-large " id="sidebar" style="background-color: #ffffff">
+    <a href="javascript:void()" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32" id="close">CLOSE</a>
+    <a href="#" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-8ž" id="home" >HOME</a> 
+    <a href="#" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-8" id="products">PRODUCTS</a>
+    <a href="#" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-8" id="contact">CONTACT</a>
+  </nav>
+  
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-animate-opacity" (click)="w3_close()" style="cursor:pointer" id="overlay"></div>
+
+  <!--<div class="header-menu">
     <div class="sections">
       <div class="section section-1" [class.hidden]="rotatedX">
         Section 1
@@ -16,5 +32,7 @@
       </div>
     </div>
     <img class="x-icon" (click)="rotatedX = !rotatedX" [class.rotated]="rotatedX" src="../../../assets/icons/cross.svg">
-  </div>
+  </div>-->
 </div>
+
+

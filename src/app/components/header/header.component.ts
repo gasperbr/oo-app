@@ -14,4 +14,14 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  w3_open() {
+    document.getElementById("sidebar").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+  }
+  
+  w3_close() {
+    document.getElementById("sidebar").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+  }
+
 }

@@ -1,8 +1,9 @@
 @import './extraStyles/scrollbar.scss';
-
+@import "./w3css/w3.scss";
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0px;
     background-color: #f8f8f8;
 }
