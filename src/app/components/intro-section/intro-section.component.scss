@@ -57,15 +57,6 @@
   }
 }
 
-@media (min-width: 1025px){
-  .surf_title {
-    padding-top: 50px;
-    font-size: 120px;
-    text-align: center;
-    color: white;
-    opacity: 0.9;
-  }
-}
 
 @media (max-width: 1024px){
   @keyframes fadeInRight {
@@ -90,7 +81,7 @@
   }
 }
 
-@media (min-width: 1025px){
+@media (min-width: 1025px) and (max-width: 1499px){
   @keyframes fadeInRight {
     from {
       opacity: 0;
@@ -111,5 +102,41 @@
     animation-duration: 4s;
     animation-fill-mode: both;
   }
+  .surf_title {
+    padding-top: 50px;
+    font-size: 120px;
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+  }
 }
   
+@media (min-width: 1500px){
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+  
+  .fadeInRight {
+    animation-name: fadeInRight;
+  }
+
+  .animated {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+  }
+  .surf_title {
+    padding-top: 50px;
+    font-size: 200px;
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+  }
+}
