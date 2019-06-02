@@ -1,6 +1,7 @@
 .mentawai_beach{
     height: 50%;
     transition: 2s ease-in-out;
+    align-content: center;
     &:hover{
         content:url('../../../assets/IMG_5214[1220].jpg');
         transform: scale(1.1);
@@ -13,38 +14,8 @@
 
 .description{
    visibility: hidden;
+   font-size: 0px;
 }
-
-
-.slide-in-left {
-	-webkit-animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@-webkit-keyframes slide-in-left {
-    0% {
-      -webkit-transform: translateX(-1000px);
-              transform: translateX(-1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  @keyframes slide-in-left {
-    0% {
-      -webkit-transform: translateX(-1000px);
-              transform: translateX(-1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
-  }
 
 .under_water img{
   -webkit-filter: grayscale(100%);
@@ -79,8 +50,8 @@
         font-size: 70px;
     }
     &:hover + .description{
-        text-transform: uppercase;
         visibility: visible;
+        font-size: 15px;
     }
 }
 }
@@ -100,8 +71,8 @@
         font-size: 90px;
     }
     &:hover + .description{
-        text-transform: uppercase;
         visibility: visible;
+        font-size: 15px;
     }
 }
 }
@@ -121,35 +92,13 @@
         font-size: 90px;
     }
     &:hover + .description{
-        text-transform: uppercase;
         visibility: visible;
+        font-size: 15px;
     }
   }
   .mentawai_beach{
     align-content: center;
   }
-}
-
-@media (min-width: 1024px){
-  .under{
-    padding-left: 20px;
-    height: 55%;
-  }
-  .title{
-    font-size: 80px;
-    text-align: center;
-    -webkit-transition: font-size 2s;
-    -moz-transition: font-size 2s;
-    -o-transition: font-size 2s;
-    transition: font-size 2s;
-    &:hover{
-        font-size: 100px;
-    }
-    &:hover + .description{
-        text-transform: uppercase;
-        visibility: visible;
-    }
-}
 }
 
 @media (min-width: 1025px) and (max-width: 1499px){
@@ -168,12 +117,15 @@
         font-size: 100px;
     }
     &:hover + .description{
-        text-transform: uppercase;
         visibility: visible;
+        font-size: 15px;
     }
   }
   .mentawai_beach{
-    height: 65%;
+    height: 60%;
+  }
+  .changeSmall3{
+    height: 70%;
   }
 }
 
@@ -183,24 +135,130 @@
     height: 100%;
   }
   .title{
-    font-size: 120px;
+    font-size: 100px;
     text-align: center;
     -webkit-transition: font-size 2s;
     -moz-transition: font-size 2s;
     -o-transition: font-size 2s;
     transition: font-size 2s;
     &:hover{
-        font-size: 140px;
+        font-size: 120px;
     }
     &:hover + .description{
-        text-transform: uppercase;
         visibility: visible;
+        font-size: 15px;
     }
   }
-  .description{
-    font-size: 30px;
-  }
   .mentawai_beach {
-    height: 90%;
+    height: 80%;
   } 
+  .changeSmall3{
+    height: 70%;
+  }
+}
+.showImage{
+  display:none;
+}
+
+.hideDiv{
+  display:none;
+}
+
+.change1{
+  @media (min-width: 1500px){
+    height: 75%;
+  }
+    height: 55%;
+    content:url('../../../assets/IMG_5267[1614].jpg');
+    transition: 2s ease-in-out;
+    align-content: center;
+    &:hover{
+        content:url('../../../assets/IMG_5266[1613].jpg');
+        transform: scale(1.1);
+    }
+}
+
+.change2{
+  content:url('../../../assets/IMG_5210[1217].jpg');
+  transition: 2s ease-in-out;
+  align-content: center;
+  &:hover{
+      content:url('../../../assets/IMG_5211[1218].jpg');
+      transform: scale(1.1);
+  }
+}
+.change3{
+  content:url('../../../assets/IMG_5268[1615].jpg');
+  transition: 2s ease-in-out;
+  align-content: center;
+  &:hover{
+      content:url('../../../assets/IMG_5271[1617].jpg');
+      transform: scale(1.1);
+  }
+}
+
+.changeSmall2 {
+  content:url('../../../assets/IMG_5259[1595].jpg');
+  align-content: center;
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.changeSmall2:hover{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.changeSmall3 {
+  @media (min-width: 1500px){
+    height: 45%;
+  }
+  content:url('../../../assets/IMG_5203[1210].jpg');
+  align-content: center;
+  height: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.changeSmall3:hover{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.changeSmall4 {
+  @media (min-width: 1500px){
+    height: 45%;
+  }
+  content:url('../../../assets/IMG_5270[1616].jpg');
+  align-content: center;
+  height: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.changeSmall4:hover{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.title-mentawai, .title-zarautz, .title-oahu, .title-j-bay{
+  &:hover{
+    cursor: pointer;
+  }
 }
