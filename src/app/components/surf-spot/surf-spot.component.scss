@@ -46,9 +46,6 @@
     -moz-transition: font-size 2s;
     -o-transition: font-size 2s;
     transition: font-size 2s;
-    &:hover{
-        font-size: 70px;
-    }
     &:hover + .description{
         visibility: visible;
         font-size: 15px;
@@ -67,9 +64,6 @@
     -moz-transition: font-size 2s;
     -o-transition: font-size 2s;
     transition: font-size 2s;
-    &:hover{
-        font-size: 90px;
-    }
     &:hover + .description{
         visibility: visible;
         font-size: 15px;
@@ -88,9 +82,6 @@
     -moz-transition: font-size 2s;
     -o-transition: font-size 2s;
     transition: font-size 2s;
-    &:hover{
-        font-size: 90px;
-    }
     &:hover + .description{
         visibility: visible;
         font-size: 15px;
@@ -113,9 +104,6 @@
     -moz-transition: font-size 2s;
     -o-transition: font-size 2s;
     transition: font-size 2s;
-    &:hover{
-        font-size: 100px;
-    }
     &:hover + .description{
         visibility: visible;
         font-size: 15px;
@@ -141,9 +129,6 @@
     -moz-transition: font-size 2s;
     -o-transition: font-size 2s;
     transition: font-size 2s;
-    &:hover{
-        font-size: 120px;
-    }
     &:hover + .description{
         visibility: visible;
         font-size: 15px;
@@ -261,4 +246,10 @@
   &:hover{
     cursor: pointer;
   }
+}
+
+.showText{
+  visibility: visible;
+  font-size: 15px;
+  align-content: center;
 }
