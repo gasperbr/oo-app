@@ -9,6 +9,7 @@ import { SurfBoardsComponent } from './components/surf-boards/surf-boards.compon
 import { VideoSectionComponent } from './components/video-section/video-section.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SurfSpotComponent } from './components/surf-spot/surf-spot.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SurfSpotComponent } from './components/surf-spot/surf-spot.component';
     SurfBoardsComponent,
     VideoSectionComponent,
     FooterComponent,
-    SurfSpotComponent
+    SurfSpotComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule
