@@ -2,9 +2,8 @@
     position: relative;
     top: -20vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     background-image: url(../../../assets/surf_wave.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,15 +37,15 @@ clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 86%, 0 15%);
 .info-card {
     min-width: 10rem;
     min-height: 10rem;
-    width: 25%;
+    width: 50%;
     height: 50%;
-    background-color: #ffffff8c;
+    background-color: #ffffff4c;
     transition: background-color 500ms;
     transition: all .2s ease-in-out;
 }
 
 .info-card:hover {
-    background-color: #ffffffd1;
+    background-color: #ffffff81;
     border-radius: 5px;
     transform: scale(1.1);
 }
@@ -55,3 +54,4 @@ clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 86%, 0 15%);
     text-align: center;
     padding: 10px;
 }
+
