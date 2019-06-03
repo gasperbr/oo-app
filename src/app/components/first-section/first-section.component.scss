@@ -32,12 +32,10 @@ clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 86%, 0 15%);
 
 }
 
-
-
 .info-card {
     min-width: 10rem;
     min-height: 10rem;
-    width: 50%;
+    width: 60%;
     height: 50%;
     background-color: #ffffff4c;
     transition: background-color 500ms;
@@ -46,7 +44,6 @@ clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 86%, 0 15%);
 
 .info-card:hover {
     background-color: #ffffff81;
-    border-radius: 5px;
     transform: scale(1.1);
 }
 
@@ -55,3 +52,8 @@ clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 86%, 0 15%);
     padding: 10px;
 }
 
+.aboutUs{
+    font-size: 60px;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+}
