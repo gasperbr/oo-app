@@ -1,4 +1,6 @@
 .main {
+    position: relative;
+    top: -20vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -9,7 +11,26 @@
     background-attachment: fixed;
     background-position: center;
     width: 100%;
-    min-height: 80vh;
+    min-height: 128vh;
+    
+    
+//-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0 23%);
+//clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0 23%);
+
+//-webkit-clip-path: polygon(50% 0%, 100% 20%, 100% 100%, 50% 100%, 0 100%, 0 20%);
+//clip-path: polygon(50% 0%, 100% 20%, 100% 100%, 50% 100%, 0 100%, 0 20%);
+
+
+
+//-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 95%, 0 100%, 0 23%);
+//clip-path: polygon(50% 0%, 100% 25%, 100% 100%, 50% 95%, 0 100%, 0 23%);
+
+
+
+-webkit-clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 86%, 0 15%);
+clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 86%, 0 15%);
+
+
 }
 
 

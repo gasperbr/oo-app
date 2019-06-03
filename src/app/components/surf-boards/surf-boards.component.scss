@@ -8,6 +8,8 @@
     width: 100%;
     min-height: 80vh;
     background-color: white;
+    position: relative;
+    top: -15vh;
 }
 .board-row {
     display: flex;
@@ -41,5 +43,30 @@ img {
     transition: all 200ms ease-in-out;
     &:hover {
         transform: scale(1.1);
+    }
+}
+
+
+.slideshow {
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+    width: 100%;
+}
+.images {
+    background: url('../../../assets/boards/boards-short.png');
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300%;
+    animation: slideshow 120s linear infinite;
+    transform: translate3d(0, 0, 0);
+}
+@keyframes slideshow {
+    0%    { left: 0; }
+    100%  {
+        left: -100%;
+        -webkit-transform: translateX(-200%);  
     }
 }
