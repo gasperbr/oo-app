@@ -1,0 +1,62 @@
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 40;
+    position: relative;
+    text-align: center;
+    color: white;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.makingBoards{
+    position: relative;
+}
+
+.makingBoards video{
+    position: relative;
+    z-index:0;
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.video_section{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 40px;
+  }
+  
+  .video_section video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }

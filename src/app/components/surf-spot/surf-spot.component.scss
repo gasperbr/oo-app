@@ -40,7 +40,7 @@
     height: 50%;;
   }
   .title{
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
     -webkit-transition: font-size 2s;
     -moz-transition: font-size 2s;
@@ -50,7 +50,12 @@
         visibility: visible;
         font-size: 15px;
     }
-}
+  }
+  .title-surf{
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+  }
 }
 
 @media (min-width: 780px) and (max-width: 1024px){
@@ -58,7 +63,7 @@
     height: 50%;
   }
   .title{
-    font-size: 80px;
+    font-size: 50px;
     text-align: center;
     -webkit-transition: font-size 2s;
     -moz-transition: font-size 2s;
@@ -68,7 +73,13 @@
         visibility: visible;
         font-size: 15px;
     }
-}
+    
+  }
+  .title-surf{
+    align-content: center;
+    text-align: center;
+    font-size: 60px;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 780px){
@@ -76,7 +87,7 @@
     height: 60%;
   }
   .title{
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
     -webkit-transition: font-size 2s;
     -moz-transition: font-size 2s;
@@ -89,6 +100,11 @@
   }
   .mentawai_beach{
     align-content: center;
+  }
+  .title-surf{
+    align-content: center;
+    text-align: center;
+    font-size: 60px;
   }
 }
 
@@ -115,6 +131,11 @@
   .changeSmall3{
     height: 70%;
   }
+  .title-surf{
+    align-content: center;
+    text-align: center;
+    font-size: 70px;
+  }
 }
 
 @media (min-width: 1500px){
@@ -123,7 +144,7 @@
     height: 100%;
   }
   .title{
-    font-size: 100px;
+    font-size: 90px;
     text-align: center;
     -webkit-transition: font-size 2s;
     -moz-transition: font-size 2s;
@@ -139,6 +160,11 @@
   } 
   .changeSmall3{
     height: 70%;
+  }
+  .title-surf{
+    align-content: center;
+    text-align: center;
+    font-size: 100px;
   }
 }
 .showImage{
@@ -252,10 +278,4 @@
   visibility: visible;
   font-size: 15px;
   align-content: center;
-}
-
-.title-surf{
-  align-content: center;
-  text-align: center;
-  font-size: 70px;
 }
