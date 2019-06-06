@@ -1,0 +1,627 @@
+.title {
+    position: relative;
+    top: -20vh;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+.carousel.slide {
+    height: 40vh;
+    margin-bottom: 20vh;
+    position: relative;
+    top: -20vh;
+}
+
+.carousel-image {
+    height: 70vh;
+    position: relative;
+    left: 23vw;
+    cursor: pointer;
+}
+
+.titleBoard{
+    text-align: center;
+    font-size: 30px;
+    align-content: center;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 40;
+    position: relative;
+    text-align: center;
+    color: white;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.makingBoards{
+    position: relative;
+}
+
+.makingBoards video{
+    position: relative;
+    z-index:0;
+}
+
+.overlay{
+    position: absolute;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.centerTitle{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.centerBox{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+
+@media (min-width: 480px) and (max-width: 780px){
+    .box{
+        text-align: center;
+        background-color: #40A0858c;
+        height: 35%;
+    }
+    .box2{
+        text-align: center;
+        background-color: #D958778c;
+        height: 35%;
+    }
+    .box1{
+        text-align: center;
+        background-color: #36947A8c;
+        height: 35%;
+    }
+    .box3{
+        text-align: center;
+        background-color: #E27F568c;
+        height: 25%;
+    }
+    .box4{
+        text-align: center;
+        background-color: #0000004a;
+        height: 25%;
+    }
+}
+@media (min-width: 780px){
+    .box{
+        text-align: center;
+        background-color: #40A0858c;
+        height: 25%;
+    }
+    .box2{
+        text-align: center;
+        background-color: #D958778c;
+        height: 25%;
+    }
+    .box1{
+        text-align: center;
+        background-color: #36947A8c;
+        height: 25%;
+    }
+    .box3{
+        text-align: center;
+        background-color: #E27F568c;
+        height: 25%;
+    }
+    .box4{
+        text-align: center;
+        background-color: #0000004a;
+        height: 25%;
+    }
+}
+
+
+.textBox{
+    padding: 5px;
+}
+
+.change1{
+    content: url('../../../assets/new_boards/blue2.jpg');
+}
+.change2{
+    content: url('../../../assets/new_boards/green2.jpg');
+}
+.change3{
+    content: url('../../../assets/new_boards/pink2.jpg');
+}
+.change4{
+    content: url('../../../assets/new_boards/orange1.jpg');
+}
+.change5{
+    content: url('../../../assets/new_boards/black2.jpg');
+}
+
+.titleBoard1{
+    position: relative;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 24px;
+    color: #262626;
+}
+.titleBoard1:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.titleBoard1:before{
+    animation: animateTitle 1s linear forwards;
+}
+@keyframes animateTitle{
+0%{
+    width: 0;
+    height: 0;
+    border-top-color: #40A085;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+50%{
+    width: 100%;
+    height: 0;
+    border-top-color: #40A085;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #40A085;
+}
+100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: #40A085;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #40A085;
+}
+}
+
+.titleBoard1:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.titleBoard1:after{
+    animation: animate2 1s linear forwards;
+    animation-delay: 1s;
+}
+@keyframes animate2{
+0%{
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #40A085;
+    border-right-color: transparent;
+}
+50%{
+    width: 0;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #40A085;
+    border-left-color: #40A085;
+    border-right-color: transparent;
+}
+100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #40A085;
+    border-left-color: #40A085;
+    border-right-color: transparent;
+}
+}
+
+.titleBoard2{
+    position: relative;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 24px;
+    color: #262626;
+}
+.titleBoard2:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.titleBoard2:before{
+    animation: animateTitle2 1s linear forwards;
+}
+@keyframes animateTitle2{
+0%{
+    width: 0;
+    height: 0;
+    border-top-color: #36947A;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+50%{
+    width: 100%;
+    height: 0;
+    border-top-color: #36947A;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #36947A;
+}
+100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: #36947A;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #36947A;
+}
+}
+
+.titleBoard2:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.titleBoard2:after{
+    animation: animate22 1s linear forwards;
+    animation-delay: 1s;
+}
+@keyframes animate22{
+0%{
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #36947A;
+    border-right-color: transparent;
+}
+50%{
+    width: 0;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #36947A;
+    border-left-color: #36947A;
+    border-right-color: transparent;
+}
+100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #36947A;
+    border-left-color: #36947A;
+    border-right-color: transparent;
+}
+}
+
+.titleBoard3{
+    position: relative;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 24px;
+    color: #262626;
+}
+.titleBoard3:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.titleBoard3:before{
+    animation: animateTitle3 1s linear forwards;
+}
+@keyframes animateTitle3{
+0%{
+    width: 0;
+    height: 0;
+    border-top-color: #D95877;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+50%{
+    width: 100%;
+    height: 0;
+    border-top-color: #D95877;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #D95877;
+}
+100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: #D95877;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #D95877;
+}
+}
+
+.titleBoard3:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.titleBoard3:after{
+    animation: animate23 1s linear forwards;
+    animation-delay: 1s;
+}
+@keyframes animate23{
+0%{
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #D95877;
+    border-right-color: transparent;
+}
+50%{
+    width: 0;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #D95877;
+    border-left-color: #D95877;
+    border-right-color: transparent;
+}
+100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #D95877;
+    border-left-color: #D95877;
+    border-right-color: transparent;
+}
+}
+
+.titleBoard4{
+    position: relative;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 24px;
+    color: #262626;
+}
+.titleBoard4:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.titleBoard4:before{
+    animation: animateTitle4 1s linear forwards;
+}
+@keyframes animateTitle4{
+0%{
+    width: 0;
+    height: 0;
+    border-top-color: #E27F56;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+50%{
+    width: 100%;
+    height: 0;
+    border-top-color: #E27F56;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #E27F56;
+}
+100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: #E27F56;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: #E27F56;
+}
+}
+
+.titleBoard4:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.titleBoard4:after{
+    animation: animate24 1s linear forwards;
+    animation-delay: 1s;
+}
+@keyframes animate24{
+0%{
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #E27F56;
+    border-right-color: transparent;
+}
+50%{
+    width: 0;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #E27F56;
+    border-left-color: #E27F56;
+    border-right-color: transparent;
+}
+100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: #E27F56;
+    border-left-color: #E27F56;
+    border-right-color: transparent;
+}
+}
+
+.titleBoard5{
+    position: relative;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 24px;
+    color: #262626;
+}
+.titleBoard5:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.titleBoard5:before{
+    animation: animateTitle5 1s linear forwards;
+}
+@keyframes animateTitle5{
+0%{
+    width: 0;
+    height: 0;
+    border-top-color: black;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+50%{
+    width: 100%;
+    height: 0;
+    border-top-color: black;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: black;
+}
+100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: black;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: black;
+}
+}
+
+.titleBoard5:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.titleBoard5:after{
+    animation: animate25 1s linear forwards;
+    animation-delay: 1s;
+}
+@keyframes animate25{
+0%{
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: black;
+    border-right-color: transparent;
+}
+50%{
+    width: 0;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: black;
+    border-left-color: black;
+    border-right-color: transparent;
+}
+100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-bottom-color: black;
+    border-left-color: black;
+    border-right-color: transparent;
+}
+}
