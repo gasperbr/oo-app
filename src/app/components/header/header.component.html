@@ -11,28 +11,13 @@
 
   <nav class="w3-sidebar w3-bar-block w3-animate-right w3-top w3-text-black w3-large " id="sidebar" style="background-color: #ffffff">
     <a href="javascript:void()" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32" id="close">CLOSE</a>
-    <a href="#" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-8ž" id="home" >HOME</a> 
-    <a href="#" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-8" id="products">PRODUCTS</a>
-    <a href="#" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-8" id="contact">CONTACT</a>
+    <a routerLink="home" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-8ž" id="home" >HOME</a> 
+    <a routerLink="about" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-8" id="products">ABOUT</a>
+    <a routerLink="products" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-8" id="products">PRODUCTS</a>
+    <a routerLink="contact" (click)="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-8" id="contact">CONTACT</a>
   </nav>
   
   <!-- Overlay effect when opening sidebar on small screens -->
   <div class="w3-overlay w3-animate-opacity" (click)="w3_close()" style="cursor:pointer" id="overlay"></div>
 
-  <!--<div class="header-menu">
-    <div class="sections">
-      <div class="section section-1" [class.hidden]="rotatedX">
-        Section 1
-      </div>
-      <div class="section section-2" [class.hidden]="rotatedX">
-        Section 2
-      </div>
-      <div class="section section-3" [class.hidden]="rotatedX">
-        Section 3
-      </div>
-    </div>
-    <img class="x-icon" (click)="rotatedX = !rotatedX" [class.rotated]="rotatedX" src="../../../assets/icons/cross.svg">
-  </div>-->
 </div>
-
-

@@ -111,6 +111,30 @@ export class SurfSpotComponent implements OnInit {
       });
     });
 
+    $(document).ready(function(){
+      $('.title-oahu').hover(function(){
+        $('.mentawai_beach').addClass('imageChange1');
+      }, function(){
+        $('.mentawai_beach').removeClass('imageChange1');
+      });
+    });
+
+    $(document).ready(function(){
+      $('.title-j-bay').hover(function(){
+        $('.mentawai_beach').addClass('imageChange3');
+      }, function(){
+        $('.mentawai_beach').removeClass('imageChange3');
+      });
+    });
+
+    $(document).ready(function(){
+      $('.title-zarautz').hover(function(){
+        $('.mentawai_beach').addClass('imageChange2');
+      }, function(){
+        $('.mentawai_beach').removeClass('imageChange2');
+      });
+    });
+
   }
 
 
